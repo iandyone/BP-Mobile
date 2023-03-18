@@ -1,1 +1,16 @@
 @import './nullstyle.css';
+
+:root {
+    /* FONTS */
+    --SF: 'SF Pro Display';
+    --Roboto: 'Roboto';
+}
+
+
+
+.wraper {
+    min-height: 100vh;
+    font-family: var(--SF);
+    overflow-x: hidden;
+    font-weight: 400;   
+}

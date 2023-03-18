@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular");
+@import '../assets/fonts/SF_Pro_Display/stylesheet.css';
+
 * {
   padding: 0;
   margin: 0;
@@ -22,7 +25,6 @@ html, body {
   font-size: 100%;
   line-height: 1;
   font-weight: 600;
-  font-family: "Arial";
   background-color: #333;
   color: #fff;
 }
