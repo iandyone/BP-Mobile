@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:regular");
 @import '../assets/fonts/SF_Pro_Display/stylesheet.css';
+@import '../assets/fonts/SF_Pro_Text/stylesheet.css';
 
 * {
   padding: 0;
