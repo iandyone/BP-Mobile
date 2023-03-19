@@ -161,7 +161,7 @@
 .rate__price {
     font-weight: 400;
     font-size: 15px;
-    line-height: 100%px;
+    line-height: 110%;
     text-align: center;
     margin-bottom: 12px;
 }
@@ -253,7 +253,7 @@
 
 
 
-@media (max-height: 750px) and (max-height: 570px){
+@media (max-width: 420px) and (max-height: 700px){
     .wraper {
         background-position: 0px -90px;
         padding: 0 10px;
@@ -285,6 +285,22 @@
 @media (max-height: 580px) {
     .header {
         padding-top: 10px;
+    }
+    .main__title {
+        font-size: calc(28 / 375 * 100vw);;
+    }
+    .rates {
+        transform: scale(.9);
+    }
+    .options {
+        row-gap: 3px;
+    }
+    .options__item {
+        font-size: 16px;
+        line-height: 120%;
+    }
+    .main__button {
+        height: 45px;
     }
     .footer {
         padding-bottom: 15px;
