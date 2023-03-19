@@ -36,7 +36,6 @@ function getOptimiztionConfig() {
 
 module.exports = {
     entry: {
-        // index: ['@babel/polyfill', path.resolve(__dirname, 'src', 'js', 'index.js')]
         index: path.resolve(__dirname, 'src', 'js', 'index.js'),
     },
 
@@ -80,7 +79,6 @@ module.exports = {
         new CopyWebpackPlugin({
             patterns: [
                 { from: path.resolve(__dirname, 'src', 'assets',), to: path.resolve(__dirname, 'dist', 'assets') },
-                // { from: path.resolve(__dirname, 'src', 'js',), to: path.resolve(__dirname, 'dist', 'js') },
             ]
         })
     ],

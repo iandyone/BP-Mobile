@@ -1,4 +1,3 @@
-// import '@scss/style.scss';
 import "@css/style.css";
 
 const rates = document.querySelector(".rates");
@@ -71,7 +70,7 @@ async function setAppLanguage(language) {
                 if (element.dataset.rate === "monthly") {
                     element.innerHTML = monthlyValue.replace("{{price}}", monthlyRatePerMonthPrice);
                 } else if (element.dataset.rate === 'yearly') {
-                    element.innerHTML = monthlyValue.replace("{{price}}", `${yearlyRatePerMonthPrice}`);
+                    element.innerHTML = monthlyValue.replace("{{price}}", yearlyRatePerMonthPrice);
                 }
             }
             return;
@@ -84,8 +83,8 @@ async function setAppLanguage(language) {
 
 function fixFonts(language) {
     const rateTitles = document.querySelectorAll(".rate__title");
-    
-    if(language === "fr") {
+
+    if (language === "fr") {
         const rateTitleStyles = `
             max-width: 85px;
             line-height: 100%;
